@@ -63,15 +63,15 @@ main{
 
 .result {
     width: 100%;
-    height: 350px;
+    height: 21.875rem;
     background-image: linear-gradient(var(--bg-gradient-from), var(--bg-gradient-to));
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 1.875rem 1.875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    padding: 0px 60px;
+    gap: 0.9375rem;
+    padding: 0rem 3.75rem;
     color: var(--light-lavender);
 }
 
@@ -81,10 +81,10 @@ main{
 }
 
 .result-circle {
-    width: 135px;
-    height: 135px;
+    width: 8.4375rem;
+    height: 8.4375rem;
     border-radius: 50%;
-    padding: 20px;
+    padding: 1.25rem;
     background-image: linear-gradient(var(--circle-gradient-from), var(--circle-gradient-to));
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ main{
     font-size: 1.4375rem;
     color: var(--white);
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .result-summary p:nth-child(4) {
@@ -123,8 +123,8 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    gap: 25px;
+    padding: 1.875rem;
+    gap: 1.5625rem;
 }
 
 .summary h2 {
@@ -136,18 +136,18 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9375rem;
 }
 
 
 .score {
     width: 100%;
-    height: 55px;
-    border-radius: 8px;
+    height: 3.4375rem;
+    border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .score p {
@@ -195,7 +195,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .summary a {
@@ -203,8 +203,8 @@ main{
     color: var(--white);
     background-color: var(--dark-gray-blue);
     width: 100%;
-    height: 55px;
-    border-radius: 50px;
+    height: 3.4375rem;
+    border-radius: 3.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,9 +223,9 @@ main{
 
     .result-summary {
         flex-direction: row;
-        width: 720px;
-        min-height: 520px;
-        border-radius: 30px;
+        width: 45rem;
+        min-height: 32.5rem;
+        border-radius: 1.875rem;
         background-color: var(--white);
         -webkit-box-shadow: 8px 5px 11px 0px hsl(241, 100%, 89%);
         box-shadow: 10px 10px 20px 5px hsla(241, 100%, 89%, 0.2);
@@ -233,18 +233,18 @@ main{
 
     .result {
         width: 50%;
-        height: 520px;
-        border-radius: 30px;
-        gap: 20px;
+        height: 32.5rem;
+        border-radius: 1.875rem;
+        gap: 1.25rem;
         justify-content: space-evenly;
-        padding: 35px 50px;
+        padding: 2.1875rem 3.125rem;
     }
 
     .summary {
         width: 50%;
-        height: 520px;
-        padding: 35px;
-        gap: 35px;
+        height: 32.5rem;
+        padding: 2.1875rem;
+        gap: 2.1875rem;
     }
 
     .summary h2 {
@@ -256,8 +256,8 @@ main{
     }
 
     .result-circle {
-        width: 200px;
-        height: 200px;
+        width: 12.5rem;
+        height: 12.5rem;
     }
 
     .result-circle p:nth-child(1) {
